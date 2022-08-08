@@ -15,12 +15,14 @@ public class Main {
         Sala sala1 = new Sala(1);
         Sala sala2 = new Sala(2);
 
+//        Rezerwuje pierwsze wolne miejsce
         sala1.rezerwujMiejsce();
         sala1.rezerwujMiejsce();
         sala1.rezerwujMiejsce();
         sala2.rezerwujMiejsce();
         sala2.rezerwujMiejsce();
 
+//        Zwalnia konkretne miejsce
         sala2.zwolnijMiejsce(1);
         sala2.zwolnijMiejsce(3);
         sala2.zwolnijMiejsce(100);
